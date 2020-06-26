@@ -1,0 +1,75 @@
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!---------Custom Style--------------->
+        <link rel="stylesheet" href="css/style.css">
+    <!---------Admin Style--------------->
+        <link rel="stylesheet" href="css/admin.css">
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+        <title>Admin Section - Manage Students</title>
+    </head>
+    <body>
+        <!------------header------------->
+        
+        <section id="header">
+            <div class="menu-bar">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img class="logo-image" src="images/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                </ul>
+                </div>
+                </nav>
+            </div>
+        </section>
+        
+        <!-----------------Admin Page Wrapper------------------------>
+        <div class="admin-wrapper">
+            
+            <!--Left Sidebar-->
+            <div class="left-sidebar">
+                <ul>
+                    <li><a href="manage-experts.html">Manage Experts</a></li>
+                    <li><a href="manage-students.html">Manage Students</a></li>
+                </ul>
+            </div>
+            <!-- //Left Sidebar-->
+            
+            <!--Admin Content-->
+            <div class="admin-content">
+                
+                
+                <div class="content">
+                    
+                    <h2 class="page-title">Manage Students</h2>
+                    
+                    <table>
+                        <thead>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th colspan="3">Status</th>
+                        </thead>
+                        <tbody id="students-list">
+                        
+                        </tbody>
+                    </table>
+                    
+                </div>
+                
+            </div>
+            <!-- //Admin Content--->
+            
+        </div>
+        <!-----------------//Admin Page Wrapper------------------------>
+        <script type="text/javascript" src="js/manage-students.js"></script>
+        
+    </body>
+</html>

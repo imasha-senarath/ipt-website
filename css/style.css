@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.logo-image {
+    width: 160px;
+  }
+
+.menu-bar
+{
+    background-image: linear-gradient(to right, #fff, #E0FFFF, #00FA9A, #000080);
+}
+.nav-link
+{
+    font-size: 16px;
+    color: #fff !important;
+    margin: 2px;
+}
+.navbar-nav
+{
+    text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+.banner
+{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.banner h1
+{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.log-register
+{
+    padding: 10px 0;
+    margin: -44px 6% 50px;
+    background-image: linear-gradient(to right, #000080, #E0FFFF, #00FA9A, #000080);
+}
+.log-register .btn
+{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 60px;
+}

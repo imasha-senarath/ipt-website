@@ -1,0 +1,165 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-image: linear-gradient(to right, #FFFFFF, #E0FFFF, #00FA9A, #000080);
+}
+.title
+{
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: right;
+    float: right;
+}
+.navbar-nav
+{
+    text-align: right;
+}
+.menu-bar .navbar-toggler
+{
+    padding-right: 0;
+    outline: none;
+    border: none;
+}
+
+.logo-image {
+    width: 160px;
+  }
+  
+.banner
+{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/banner-1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.banner h1
+{
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+.log-register
+{
+    padding: 10px 0;
+    margin: -44px 6% 50px;
+    background-image: linear-gradient(to right, #FFFFFF, #E0FFFF, #00FA9A, #000080);
+}
+.log-register .btn
+{
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 5px 60px;
+}
+
+.search-box
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input
+{
+    border: 3px solid #32e17c;
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 0px 10px;
+    
+}
+
+.login-page
+{
+    width: 360px;
+    padding: 5% 0 0;
+    margin: auto;
+}
+
+.form
+{
+    position: relative;
+    z-index: 1;
+    background: #DCDCDC;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input
+{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;    
+}
+
+.form button
+{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.message
+{
+    padding: 10px;
+}
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+
+.form .message a
+{
+    color: #4CAF50;
+    text-decoration: none;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
